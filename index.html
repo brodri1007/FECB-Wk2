@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Sports</title>
+   <!-- Link to bootstrap style sheet This is another comment-->
+ 
+   <link rel="stylesheet" href="/css/site.css">
+</head>
+
+<body class="container"> 
+  <!-- nav element with navbar class set to dark with dark background -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid"><!-- Create nav item inside fluid container-->
+          <a class="navbar-brand" href="#">Sports Library</a><!-- Set the brand name on the left of navbar -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span><!-- create button to collapse nav on small screens -->
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"><!-- Create links for navbar -->
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>           
+              <a class="nav-link" href="baseball.html">Baseball</a>
+              <a class="nav-link" href="basketball.html">Basketball</a>
+              <a class="nav-link" href="football.html">Football</a>
+              <a class="nav-link" href="add_sport.html">Add a Sport</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- place holder for home page image -->
+    <div class="hero-image">     
+      <div class="row">
+
+        <div class="col-4 bg-dark text-center">
+          <h1>Total Sports  (3)</h1>
+        </div>
+        <div class="col-8 bg-dark">
+          <h1>Welcome to sportslibrary.com</h1>
+          <p>Help us compile information about every sports that has ever been played.</p>
+        </div>
+      </div>
+ 
+    </div>
+    <!-- Link to jquery and bootstrap javascript  -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+    
+</body>
+</html>

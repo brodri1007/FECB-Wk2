@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Sport</title>
+     <!-- Link to style sheet -->
+     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+     <link rel="stylesheet" href="/css/site.css">
+<body class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sports Library</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+           
+              <a class="nav-link" href="baseball.html">Baseball</a>
+              <a class="nav-link" href="basketball.html">Basketball</a>
+              <a class="nav-link" href="football.html">Football</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <form>
+        <div class="mb-3">
+          <label for="sportname" class="form-label">Sport Name:</label>
+          <input type="text" class="form-control" id="sportname">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+<form>
+    <label for="sportname">Sport Name:</label>
+    <div style="padding-bottom: 8px;"><input type="text" id="snme" name="sportname"></div>
+
+    <label for="sportdescription">Description:</label>
+    <div style="padding-bottom: 8px;"> <textarea id="spdesc" name="sportdescription" rows="4" cols="50"></textarea></div>
+    
+    <label for="sportdescription">Image:</label>
+    <div style="padding-bottom: 16px;"><input type="file" name="sportimage"></div>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
